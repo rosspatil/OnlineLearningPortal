@@ -1,0 +1,413 @@
+/* Desktops and laptops ----------- */
+@media only screen  and (min-device-width : 1000px) {
+	.bg-img{
+		margin-top: -20px;
+		width: 100%;
+		height: 600px;
+		background-size: 100% 600px;
+		display: block;
+		background:linear-gradient(127deg, rgba(0,0,255,.3), rgba(0,0,255,0) 70.71%),
+		linear-gradient(336deg, rgba(0,0,255,.1), rgba(0,0,255,0) 70.71%);
+
+	}
+	.big-img-text{
+		font-family: Open Sans,sans-serif;
+		font-size: 50px;
+		font-weight: 300;
+		color: #fff;
+		top: 100px;
+		left: 25%;
+		transition:1s;
+		position: relative;
+	}
+	.big-img-btn{
+		font-family: Open Sans,sans-serif;
+		font-size: 18px;
+		background: #3498db;
+		color: #fff;
+		top: 90px;
+		left: 65%;
+		transition:1s;
+		position: relative;
+		font-weight: 100;
+
+	}
+
+	.big-img-icon{
+		height: 60px;
+		top: 155px;
+		left: 40%;
+		position: relative;
+		padding: 3px;
+		width: 130px;
+		border-radius: 25px;
+
+	}
+
+	.big-img-btn:hover{
+		font-family: Open Sans,sans-serif;
+		font-size: 18px;
+		background: #e74c3c;
+		color: #fff;
+		top: 90px;
+		left: 65%;
+		transition:1s;
+		position: relative;
+		font-weight: 100;
+		
+
+	}
+	.motive h2{
+
+		font-size:30px;
+		opacity:0.9;
+	}
+	.motive p{
+		font-size:16px;
+		text-align:center;
+		opacity:0.8;
+	}
+}
+
+
+
+
+@media only screen and (max-device-width:400px) and (min-device-width : 300px){
+	.bg-img{
+		margin-top: -3px;
+		width: 100%;
+		height: 300px;
+		background-size: 100% 300px;
+		transition:1s;
+		background-image: linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6) ), url("educate1.jpg") ; 
+	}
+
+	.big-img-text{
+		font-family: Open Sans,sans-serif;;
+		font-size: 20px;
+		color: #fff;
+		top: 40%;
+		left: 10%;
+		transition:1s;
+		position: absolute;
+	}
+	.big-img-btn{
+		font-family: Open Sans,sans-serif;
+		transition:1s;
+		font-size: 15px;
+		background:  #0066ff;
+		color: #fff;
+		top: 47%;
+		left: 20%;
+		position: absolute;
+
+	}
+	
+	.big-img-icon{
+		top: 56%;
+		margin-left: 33%;
+		position: absolute;
+		transition:1s;
+		width: 30px;
+		height: 30px;
+	}
+
+	.big-img-btn:hover{
+		font-family: Open Sans,sans-serif;
+		transition:1s;
+		font-size: 15px;
+		background:  #ff6600;
+		color: #fff;
+		top: 47%;
+		left: 20%;
+		position: absolute;
+
+	}
+	.motive h2{
+		font-size:30px;
+		opacity:0.9;
+	}
+	.motive p{
+		font-size:16px;
+		text-align:center;
+		opacity:0.8;
+	}
+
+	.search-md{
+		height: 40px;
+		width:87.5%;
+		border: 1;
+		font-size: 18px;
+	}
+
+	.md-search{
+		width: 100%;
+		height: 42px;
+		margin-top:-20px;
+		background-color: #fff;
+		z-index: 10;
+	}
+
+	.md-search button{
+		position: absolute;
+		height: 42px;
+	}
+
+
+}
+
+@media only screen and (min-device-width:400px) and (max-device-width : 500px){
+	.bg-img{
+		margin-top: -3px;
+		width: 100%;
+		height: 350px;
+		background-size: 100% 350px;
+		transition:1s;
+		background-image: linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6) ), url("educate1.jpg") ; 
+	}
+
+	.big-img-text{
+		font-family: Open Sans,sans-serif;;
+		font-size: 20px;
+		color: #fff;
+		top: 40%;
+		left: 10%;
+		transition:1s;
+		position: absolute;
+	}
+	.big-img-btn{
+		font-family: Open Sans,sans-serif;
+		transition:1s;
+		font-size: 15px;
+		background:  #0066ff;
+		color: #fff;
+		top: 47%;
+		left: 20%;
+		position: absolute;
+
+	}
+	
+	.big-img-icon{
+		top: 56%;
+		margin-left: 30%;
+		position: absolute;
+		transition:1s;
+		width: 30px;
+		height: 30px;
+	}
+
+	.big-img-btn:hover{
+		font-family: Open Sans,sans-serif;
+		transition:1s;
+		font-size: 15px;
+		background:  #ff6600;
+		color: #fff;
+		top: 47%;
+		left: 20%;
+		position: absolute;
+	}
+	.motive h2{
+		font-size:30px;
+		opacity:0.9;
+	}
+	.motive p{
+		font-size:16px;
+		text-align:center;
+		opacity:0.8;
+	}
+
+	.search-md{
+		height: 40px;
+		width:87.5%;
+		border: 1;
+		font-size: 18px;
+	}
+
+	.md-search{
+		width: 100%;
+		height: 42px;
+		margin-top:-20px;
+		background-color: #fff;
+		z-index: 10;
+	}
+
+	.md-search button{
+		position: absolute;
+		height: 42px;
+	}
+
+
+}
+
+
+
+@media only screen and (min-device-width:568px) and (orientation:landscape) and (max-device-width:900px){
+	.bg-img{
+		margin-top: -3px;
+		width: 100%;
+		height: 280px;
+		background-size: 100% 280px;
+		transition:1s;
+		background-image: linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6) ), url("educate1.jpg") ; 
+	}
+
+	.big-img-text{
+		font-family: Open Sans,sans-serif;;
+		font-size: 30px;
+		color: #fff;
+		top: 55%;
+		left: 20%;
+		transition:1s;
+		position: absolute;
+	}
+	.big-img-btn{
+		font-family: Open Sans,sans-serif;
+		transition:1s;
+		font-size: 16px;
+		background:  #0066ff;
+		color: #fff;
+		top: 68%;
+		left: 30%;
+		position: absolute;
+
+	}
+	
+	.big-img-icon{
+		top: 83%;
+		margin-left: 36%;
+		position: absolute;
+		transition:1s;
+		width: 30px;
+		height: 30px;
+	}
+
+	.big-img-btn:hover{
+
+		font-family: Open Sans,sans-serif;
+		transition:1s;
+		font-size: 16px;
+		background:  #ff6600;
+		color: #fff;
+		top: 68%;
+		left: 30%;
+		position: absolute;
+
+	}
+	.motive h2{
+		font-size:30px;
+		opacity:0.9;
+	}
+	.motive p{
+		font-size:16px;
+		text-align:center;
+		opacity:0.8;
+	}
+
+	.search-md{
+		height: 40px;
+		width:93%;
+		border: 1;
+		font-size: 18px;
+	}
+
+	.md-search{
+		width: 100%;
+		height: 42px;
+		margin-top:-20px;
+		background-color: #fff;
+		z-index: 10;
+	}
+
+	.md-search button{
+		position: absolute;
+		height: 42px;
+	}
+
+
+}
+
+
+
+@media only screen and (max-device-width:568px) and (orientation:landscape) and (max-device-width:900px){
+	.bg-img{
+		margin-top: -3px;
+		width: 100%;
+		height: 200px;
+		background-size: 100% 200px;
+		transition:1s;
+		background-image: linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6) ), url("educate1.jpg") ; 
+	}
+
+	.big-img-text{
+		font-family: Open Sans,sans-serif;;
+		font-size: 24px;
+		color: #fff;
+		top: 55%;
+		left: 20%;
+		transition:1s;
+		position: absolute;
+	}
+	.big-img-btn{
+		font-family: Open Sans,sans-serif;
+		transition:1s;
+		font-size: 14px;
+		background:  #0066ff;
+		color: #fff;
+		top: 68%;
+		left: 30%;
+		position: absolute;
+
+	}
+	
+	.big-img-icon{
+		top: 83%;
+		margin-left: 36%;
+		position: absolute;
+		transition:1s;
+		width: 30px;
+		height: 30px;
+	}
+
+	.big-img-btn:hover{
+		background:  #ff6600;
+		font-family: Open Sans,sans-serif;
+		transition:1s;
+		font-size: 14px;
+		color: #fff;
+		top: 68%;
+		left: 30%;
+		position: absolute;
+
+	}
+	.motive h2{
+		font-size:30px;
+		opacity:0.9;
+	}
+	.motive p{
+		font-size:16px;
+		text-align:center;
+		opacity:0.8;
+	}
+
+	.search-md{
+		height: 40px;
+		width:93%;
+		border: 1;
+		font-size: 18px;
+	}
+
+	.md-search{
+		width: 100%;
+		height: 42px;
+		margin-top:-20px;
+		background-color: #fff;
+		z-index: 10;
+	}
+
+	.md-search button{
+		position: absolute;
+		height: 42px;
+	}
+
+
+}

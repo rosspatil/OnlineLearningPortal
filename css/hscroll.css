@@ -1,0 +1,99 @@
+/* stylesheet for demo and examples */
+
+@import url(http://fonts.googleapis.com/css?family=Lobster+Two:700italic,700);
+
+.content{
+			overflow: auto;
+			position: relative;
+			padding: 10px;
+			background: white;
+			margin: 10px auto;
+			width: 85%;
+			
+		}
+		
+		#content-1 li{ margin-right: 20px; }
+		
+		#content-1{
+			padding: 20px 60px;
+			background-color: white;
+			width: 100%;
+		}
+		#content-1 .mTSButtonIcon{ fill: balck; }
+		#content-1 .mTSButton .mTSButtonIcon{ opacity: 1; }
+		#content-1 .mTSButton:hover .mTSButtonIcon{ opacity: 1; }
+
+		#content-2 li{ margin-right: 20px; }
+		
+		#content-2{
+			padding: 20px 60px;
+			background-color: white;
+			width: 100%;
+		}
+		#content-2 .mTSButtonIcon{ fill: balck; }
+		#content-2 .mTSButton .mTSButtonIcon{ opacity: 1; }
+		#content-2 .mTSButton:hover .mTSButtonIcon{ opacity: 1; }
+
+		#content-3 li{ margin-right: 20px; }
+		
+		#content-3{
+			padding: 20px 60px;
+			background-color: white;
+			width: 100%;
+		}
+		#content-3 .mTSButtonIcon{ fill: balck; }
+		#content-3 .mTSButton .mTSButtonIcon{ opacity: 1; }
+		#content-3 .mTSButton:hover .mTSButtonIcon{ opacity: 1; }
+
+ #demo{
+	position: relative;
+	margin: 0 auto;
+	width: 100%;
+	padding: 0 30px;
+	
+
+}
+
+
+
+#demo{ line-height: 20px; }
+
+img{
+	max-width: 100%;
+	height: auto;
+}
+
+.display-card{
+		height: 340px;
+		width: 200px;
+	}
+
+	.card-university{
+		margin-top: 5px;
+		padding: 5px;
+		width: 100%;
+		height: 15px;
+		font-size: 11px;
+		opacity: 0.5;
+		overflow: ellipsis;
+	}
+
+	.card-title{
+		margin-top: -5px;
+		padding: 5px;
+		width: 100%;
+		height: 70px;
+		font-size: 20px;
+		font-weight: bold;
+		overflow: ellipsis;
+	}
+
+	.card-footer{
+		margin-top: 5px;
+		padding: 5px;
+		width: 100%;
+		height: 20px;
+		font-size: 16px;
+		opacity: 0.5;
+		overflow: ellipsis;
+	}

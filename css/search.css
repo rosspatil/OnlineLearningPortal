@@ -1,0 +1,134 @@
+@media only screen  and (min-device-width : 1000px) {
+	
+	.details{
+		position: relative;
+		left: 20%;
+		margin-top: 5px;
+	}
+	.img img{
+		position: absolute;
+		width: 120px;
+		height: 120px;
+		margin-left: 5px;
+		margin-top: 5px;
+	}
+
+
+.result-card {
+		margin-left: 0;
+		width: 100%;
+		height: 130px;
+		max-width: 100%;
+		margin-top: 20px;
+		background-color: #f7f9fc;
+		cursor: pointer;
+	}
+	.result-card:hover {
+		margin-left: 0;
+		width: 100%;
+		height: 130px;
+		max-width: 100%;
+		margin-top: 20px;
+		background-color: #fff;
+	}
+
+	a{
+		text-decoration: none !important;
+	}
+
+	.card-title{
+		margin-top: 5px;
+		font-size:24px;
+		color: #000;
+		font-family:  Open Sans,sans-serif;
+		font-weight: 300;
+		line-height: 120%;
+		opacity: 0.8;
+	}
+	.card-university p{
+		margin-top: 1px;
+		font-size: 18px;
+		color: #4c2a01;
+		font-family:  Open Sans,sans-serif;
+		font-weight: 300;
+		line-height: 120%;
+		opacity: 0.6;
+	}
+	.card-details p{
+		margin-top: 1px;
+		font-size: 16px;
+		color: #000;
+		font-family:  Open Sans,sans-serif;
+		font-weight: 300;
+		line-height: 150%;
+		opacity: 0.6;
+		text-align: justify;
+		width: 70%;
+	}
+
+	
+
+}
+
+@media only screen and (max-device-width:500px) and (min-device-width : 300px){
+
+	.details{
+		position: relative;
+		left: 50%;
+		margin-top: 5px;
+	}
+	.img img{
+		position: absolute;
+		width: 25%;
+		height: 18%;
+	}
+
+	.result-card {
+		margin-left: 0;
+		width: 100%;
+		margin-top: 20px;
+		background-color: #f7f9fc;
+		cursor: pointer;
+	}
+	.result-card:hover {
+		margin-left: 0;
+		width: 100%;
+		height: 20%;
+		margin-top: 20px;
+		background-color: #fff;
+	}
+	
+	.card-title{
+		margin-top: 5px;
+		font-size:16px;
+		color: #000;
+		font-family:  Open Sans,sans-serif;
+		font-weight: 300;
+		line-height: 120%;
+		opacity: 0.8;
+	}
+	.card-university p{
+		margin-top: 1px;
+		font-size: 14px;
+		color: #4c2a01;
+		font-family:  Open Sans,sans-serif;
+		font-weight: 300;
+		line-height: 120%;
+		opacity: 0.6;
+	}
+	.card-details p{
+		margin-top: 1px;
+		font-size: 10px;
+		color: #000;
+		font-family:  Open Sans,sans-serif;
+		font-weight: 300;
+		line-height: 150%;
+		opacity: 0.6;
+		text-align: justify;
+		width: 50%;
+	}
+}
+
+
+
+
